@@ -1,4 +1,22 @@
+.card {
+  box-shadow: 3px 5px 12px 1px #b8b8b8;
+}
+
+.card-title {
+  height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .desc {
-  height: 100px;
-  overflow-y: scroll;
+  height: 95px;
+  overflow-y: hidden;
+}
+
+span {
+  font-weight: 500;
+}
+
+i {
+  cursor: pointer;
 }
