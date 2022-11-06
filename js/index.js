@@ -4,7 +4,7 @@ const render = (data) => {
   data.forEach((element) => {
     let elLi = document.createElement("li");
 
-    elLi.classList = "card mx-2 my-3";
+    elLi.className = "card mx-2 my-3";
     elLi.style.width = "17rem";
     elLi.dataset.id = element.id;
 
