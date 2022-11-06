@@ -2,6 +2,10 @@
   box-shadow: 3px 5px 12px 1px #b8b8b8;
 }
 
+img {
+  object-fit: cover;
+}
+
 .card-title {
   height: 48px;
   overflow: hidden;
